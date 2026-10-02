@@ -16,7 +16,7 @@
     .brand { display:flex; align-items:center; gap:12px; color:var(--ink); font-size:1.05rem; font-weight:800; letter-spacing:-.02em; text-decoration:none; }
     .brand img { width:38px; height:38px; }
     main { flex:1; display:grid; place-items:center; padding:64px 0 88px; }
-    .work-card { position:relative; overflow:hidden; width:min(460px,100%); min-height:520px; display:flex; flex-direction:column; justify-content:center; padding:clamp(36px,6vw,52px); border:1px solid var(--line); border-radius:28px; background:var(--paper); box-shadow:0 24px 70px rgba(49,40,135,.12); }
+    .work-card { position:relative; overflow:hidden; width:min(820px,100%); min-height:320px; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; padding:clamp(32px,5vw,52px); border:1px solid var(--line); border-radius:28px; background:var(--paper); box-shadow:0 24px 70px rgba(49,40,135,.12); }
     .work-card::before { content:""; position:absolute; width:220px; height:220px; top:-120px; right:-90px; border-radius:50%; background:var(--accent-light); opacity:.55; }
     .app-tag { margin:0 0 14px; color:var(--accent); font-size:.78rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
     h1 { margin:0; font-size:clamp(2.5rem,7vw,3.7rem); line-height:1; letter-spacing:-.055em; }
@@ -24,7 +24,7 @@
     .store-link { display:inline-flex; padding:13px 18px; border-radius:999px; background:var(--accent); color:#fff; font-weight:750; text-decoration:none; transition:transform .2s ease,box-shadow .2s ease; }
     .store-link:hover { transform:translateY(-2px); box-shadow:0 10px 24px rgba(82,70,214,.28); }
     footer { border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
-    @media (max-width:600px) { main{padding:40px 0 64px} .work-card{min-height:460px;border-radius:22px} }
+    @media (max-width:600px) { main{padding:40px 0 64px} .work-card{min-height:380px;border-radius:22px} }
     @media (prefers-reduced-motion:reduce) { .store-link{transition:none} }
   </style>
 </head>
